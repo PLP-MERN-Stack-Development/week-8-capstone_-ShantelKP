@@ -1,52 +1,42 @@
-# MERN Stack Capstone Project
+# Farmers Compound
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+A MERN stack application for managing and connecting farmers in a digital compound.
 
-## Assignment Overview
+## Features
+- Express.js backend API
+- Vite + React frontend
+- Modular folder structure (`backend` and `frontend`)
+- Ready for MongoDB integration
+- RESTful API design
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+## Setup
 
-## Getting Started
+### Prerequisites
+- Node.js & npm
+- (Optional) MongoDB for database features
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+### Backend
+1. Navigate to the `backend` folder:
+   ```powershell
+   cd backend
+   npm install
+   npm start
+   ```
+2. The server runs on port 5000 by default.
 
-## Files Included
+### Frontend
+1. Navigate to the `frontend` folder:
+   ```powershell
+   cd frontend
+   npm install
+   npm run dev
+   ```
+2. The app runs on port 5173 by default (Vite).
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+## Deployment
+- Backend and frontend can be deployed separately (e.g., Heroku for backend, Vercel/Netlify for frontend).
+- Set environment variables for production (e.g., API URLs, database credentials).
+- For full-stack deployment, use a reverse proxy or connect frontend to backend via REST API endpoints.
 
-## Requirements
+---
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
-
-## Project Ideas
-
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
-
-## Submission
-
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
-
-## Resources
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
